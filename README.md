@@ -114,10 +114,13 @@ This project demonstrates the development and evaluation of a RAG-powered chatbo
 
 Based on the evaluation results, future improvements could focus on:
 
-1. **Increasing Faithfulness and Answer Correctness**: Better citation, with page number of the policy document.
-2. **Enhancing Dataset Diversity**: Integrate additional datasets and continue refining the dataset to cover more diverse and challenging scenarios.
-3. **Training on User Feedback**: Taking feedback from streamlit UI, saving it and providing scoring to train LLM
-4. **Expanding Evaluation Metrics**: Implement other evaluation metrics to capture a wider range of performance aspects and further fine-tune the chatbot's capabilities.
+Improving Faithfulness and Answer Correctness: Enhance the citation mechanism by including the relevant page numbers from the policy documents to improve answer traceability and reliability.
+
+Enhancing Dataset Diversity: Incorporate additional datasets and continuously refine the existing dataset to cover a broader range of diverse, complex, and challenging scenarios.
+
+Leveraging User Feedback for Training: Collect and store user feedback submitted through the Streamlit interface and use the feedback scores to evaluate and further improve the LLM's performance.
+
+Expanding Evaluation Metrics: Incorporate additional evaluation metrics to assess a wider range of chatbot performance aspects and identify areas for further optimization and fine-tuning.
 
 
 Thank you for reviewing this project. Contributions and feedback are always welcome.
