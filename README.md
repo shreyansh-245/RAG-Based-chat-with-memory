@@ -88,11 +88,11 @@ Evaluation dataset & result: Contains the CSV files used for evaluating the chat
 
 The following table summarizes the scores obtained using different evaluation techniques.
 
-| Technique                   | Faithfulness | Relevancy | Context Recall | Answer Correctness | Context Precision | Accuracy | Precision | Recall |
+| Technique                   | Relevancy | Context Recall | Answer Correctness | Context Precision | Accuracy | Precision | Recall |
 |-----------------------------|--------------|-----------|----------------|--------------------|-------------------|----------|-----------|--------|
-| RAGAs Evaluation            | 0.64         | 0.93      | 0.86           | 0.60               | 0.91              | N/A      | N/A       | N/A    |
-| Ollama Model Evaluation     | N/A          | N/A       | N/A            | N/A                | N/A               | 0.96     | N/A       | N/A    |
-| SentenceTransformer Model   | N/A          | 0.82      | N/A            | N/A                | N/A               | N/A      | 0.50      | 0.63   |
+| RAGAs Evaluation            | 0.64         | 0.93      | 0.86           | 0.60               | 0.91              |      | N/A       | N/A    |
+| Ollama Model Evaluation     | N/A          | N/A       | N/A            | N/A                | N/A               |      | N/A       | N/A    |
+| SentenceTransformer Model   | N/A          | 0.82      | N/A            | N/A                | N/A               |      | 0.50      | 0.63   |
 
 - **RAGAs Evaluation**: Aggregated scores for faithfulness, relevancy, context recall, answer correctness, and context precision.
 - **Ollama Model Evaluation**: Focused on accuracy by comparing actual responses with expected answers.
