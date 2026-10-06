@@ -1,6 +1,7 @@
 # RAG-Powered Chatbot & Evaluation
 
-## Overview
+## Overview 
+
 
 This project aims to create and evaluate a Retrieval-Augmented Generation (RAG) powered chatbot designed to answer questions related to auto insurance policies.
 
@@ -12,9 +13,11 @@ This project aims to create and evaluate a Retrieval-Augmented Generation (RAG) 
 
 The repository is organized into the following folders:
 
-- **code**: Contains Jupyter notebooks used for developing and testing the RAG chatbot.
-- **streamlit**: Contains `app.py`, `requirements.txt` and other dependencies to run the chatbot using Streamlit.
-- **Evaluation dataset & result**: Contains CSV files used for evaluation, including `Cleaned_Testcase_Dataset.csv` which is the evaluation dataset.
+code: Contains Jupyter notebooks used for developing, experimenting with, and testing the RAG chatbot.
+
+streamlit: Contains app.py, requirements.txt, and other dependencies required to run the chatbot using Streamlit.
+
+Evaluation dataset & result: Contains the CSV files used for evaluating the chatbot. The primary evaluation dataset is Cleaned_Testcase_Dataset.csv.
 
 ## RAG System Creation
 
