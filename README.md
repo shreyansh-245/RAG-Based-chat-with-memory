@@ -55,14 +55,14 @@ Evaluation dataset & result: Contains the CSV files used for evaluating the chat
 
 ### Initial Evaluation Methods
 
-- **LLM Evaluation**: Developed an evaluation method using the Ollama model to assess the RAG system's performance.
-  - **Accuracy Measurement**: Implemented a process to compare 30 actual responses from the chatbot against expected answers using a structured evaluation prompt.
-  - **Detailed Feedback**: Provided detailed feedback by printing evaluation results, highlighting correct and incorrect responses for further analysis and improvement.
+LLM-Based Evaluation: Developed an evaluation approach using the Ollama model to assess the overall performance of the RAG system.
+Accuracy Assessment: Evaluated 30 chatbot responses by comparing the generated answers with their corresponding expected answers using a structured evaluation prompt.
+Detailed Evaluation Feedback: Generated and displayed evaluation results for each test case, identifying correct and incorrect responses to support further analysis and system improvement.
+Embedding-Based Evaluation: Used the SentenceTransformer model to evaluate the relevancy, precision, and recall of the RAG system's responses.
+Cosine Similarity: Generated embeddings for both expected and actual responses and calculated their cosine similarity to measure semantic relevancy.
+Precision and Recall: Calculated precision and recall based on the overlap between tokens in the expected and generated responses.
+Detailed Reporting: Generated evaluation results for each test case, including precision, recall, and relevancy scores, along with aggregate average metrics to provide an overall assessment of system performance.
 
-- **Embedding-Based Evaluation**: Utilized the SentenceTransformer model to assess the precision, recall, and relevancy of the RAG system's responses.
-  - **Cosine Similarity**: Computed embeddings for expected and actual answers, measuring their similarity to evaluate relevancy.
-  - **Precision and Recall Metrics**: Calculated precision and recall based on token overlap between expected and actual answers.
-  - **Detailed Reporting**: Detailed evaluation results for each test case, including precision, recall, and relevancy scores, along with average metrics for overall performance assessment.
 
 ## RAG Improvements Measures
 
